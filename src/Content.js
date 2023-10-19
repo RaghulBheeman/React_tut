@@ -2,7 +2,7 @@ import React from 'react'
 
 import {FaRegTrashAlt} from "react-icons/fa";
 
-const Content = ({items,handleCheck,handledelete})=>{
+const Content = ({items,handleCheck,handleDelete})=>{
 
     
 
@@ -22,7 +22,7 @@ const Content = ({items,handleCheck,handledelete})=>{
                            {item.item}</label>
                         <FaRegTrashAlt
                             role="button"
-                            onClick={()=>handledelete(item.id)}
+                            onClick={()=>handleDelete(item.id)}
                             tabIndex="0"
                         />
 
